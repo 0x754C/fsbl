@@ -3,7 +3,7 @@
 #ifndef __MMAP_H__
 #define __MMAP_H__
 
-#include "cvi_board_memmap.h"
+#include "sg2002_memmap.h"
 
 /*
  * BL1 read-only specific defines.
