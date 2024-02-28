@@ -121,6 +121,7 @@ endif
 
 CPPFLAGS += \
 	${DEFINES} ${INCLUDES} \
+	-fno-stack-protector \
 	-nostdinc \
 	-Wmissing-include-dirs
 
