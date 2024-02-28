@@ -122,7 +122,7 @@ endif
 CPPFLAGS += \
 	${DEFINES} ${INCLUDES} \
 	-nostdinc \
-	-Wmissing-include-dirs -Werror
+	-Wmissing-include-dirs
 
 TF_CFLAGS += -ggdb3 -gdwarf-2
 ASFLAGS += -g -Wa,--gdwarf-2
